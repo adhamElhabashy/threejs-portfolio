@@ -3,6 +3,7 @@ import Navbar from "./Section/Navbar/Navbar";
 import About from "./Section/About/About";
 import Projects from "./Section/Projects/Projects";
 import Clients from "./Section/Clients/Clients";
+import Contact from "./Section/Contact/Contact";
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<About />
 			<Projects />
 			<Clients />
+			<Contact />
 		</main>
 	);
 }
