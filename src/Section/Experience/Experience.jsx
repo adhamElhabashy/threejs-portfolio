@@ -9,7 +9,7 @@ import Developer from "../../Components/Developer/Developer";
 function Experience() {
 	const [animationName, setAnimationName] = useState("idle");
 	return (
-		<section className="c-space my-20">
+		<section className="c-space my-20" id="experiences">
 			<div className="w-full text-white-600">
 				<h3 className="head-text">My Work Experience</h3>
 				<div className="work-container">
