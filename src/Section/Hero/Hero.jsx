@@ -9,7 +9,6 @@ import { calculateSizes } from "../../Constants/index";
 import Target from "../../Components/Target/Target";
 import ReactLogo from "../../Components/ReactLogo/ReactLogo";
 import Cube from "../../Components/Cube/Cube";
-import Rings from "../../Components/Rings/Rings";
 import HeroCamera from "../../Components/HeroCamera/HeroCamera";
 import Button from "../../Components/Button/Button";
 
@@ -50,7 +49,6 @@ function Hero() {
 							<Target position={sizes.targetPosition} />
 							<ReactLogo position={sizes.reactLogoPosition} />
 							<Cube position={sizes.cubePosition} />
-							<Rings position={sizes.ringPosition} />
 						</group>
 						<ambientLight intensity={1} />
 						<directionalLight position={[10, 10, 10]} intensity={0.5} />
