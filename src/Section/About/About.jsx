@@ -38,7 +38,7 @@ function About() {
 							alt="grid-2"
 							className="w-full h-[300px] object-cover"
 						/>
-						<div className="flex flex-col flex-grow  space-y-2">
+						<div className="flex flex-col flex-grow space-y-2">
 							<p className="grid-headtext  ">Tech Stack</p>
 							<p className="grid-subtext">
 								I specialize in Javascript with focus on React ecosystem
